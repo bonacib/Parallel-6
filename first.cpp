@@ -1,6 +1,6 @@
 // Bailey Bonaci
 // Project6
-// OpenCL Array Multiply, Multiply-Add, and Multiply-Reduce
+// OpenCL Array Multiply
 // Code from Professor Bailey
 
 
