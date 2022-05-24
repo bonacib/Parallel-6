@@ -1,0 +1,96 @@
+clEnqueueNDRangeKernel failed: -52
+       1 number of megabites	   1 Local Size_SIZE_threads_per_size 	   1048576 num work groups 	     4.021 GigaMultsPerSecond
+clEnqueueNDRangeKernel failed: -52
+       1 number of megabites	   4 Local Size_SIZE_threads_per_size 	    262144 num work groups 	     4.145 GigaMultsPerSecond
+clEnqueueNDRangeKernel failed: -52
+       1 number of megabites	  16 Local Size_SIZE_threads_per_size 	     65536 num work groups 	     4.051 GigaMultsPerSecond
+clEnqueueNDRangeKernel failed: -52
+       1 number of megabites	  32 Local Size_SIZE_threads_per_size 	     32768 num work groups 	     3.388 GigaMultsPerSecond
+clEnqueueNDRangeKernel failed: -52
+       1 number of megabites	  64 Local Size_SIZE_threads_per_size 	     16384 num work groups 	     3.664 GigaMultsPerSecond
+clEnqueueNDRangeKernel failed: -52
+       1 number of megabites	 128 Local Size_SIZE_threads_per_size 	      8192 num work groups 	     4.234 GigaMultsPerSecond
+clEnqueueNDRangeKernel failed: -52
+       1 number of megabites	 256 Local Size_SIZE_threads_per_size 	      4096 num work groups 	     4.064 GigaMultsPerSecond
+clEnqueueNDRangeKernel failed: -52
+       1 number of megabites	 512 Local Size_SIZE_threads_per_size 	      2048 num work groups 	     3.821 GigaMultsPerSecond
+clEnqueueNDRangeKernel failed: -52
+       2 number of megabites	   1 Local Size_SIZE_threads_per_size 	   2097152 num work groups 	     6.175 GigaMultsPerSecond
+clEnqueueNDRangeKernel failed: -52
+       2 number of megabites	   4 Local Size_SIZE_threads_per_size 	    524288 num work groups 	     6.376 GigaMultsPerSecond
+clEnqueueNDRangeKernel failed: -52
+       2 number of megabites	  16 Local Size_SIZE_threads_per_size 	    131072 num work groups 	     7.207 GigaMultsPerSecond
+clEnqueueNDRangeKernel failed: -52
+       2 number of megabites	  32 Local Size_SIZE_threads_per_size 	     65536 num work groups 	     6.559 GigaMultsPerSecond
+clEnqueueNDRangeKernel failed: -52
+       2 number of megabites	  64 Local Size_SIZE_threads_per_size 	     32768 num work groups 	     7.052 GigaMultsPerSecond
+clEnqueueNDRangeKernel failed: -52
+       2 number of megabites	 128 Local Size_SIZE_threads_per_size 	     16384 num work groups 	     6.367 GigaMultsPerSecond
+clEnqueueNDRangeKernel failed: -52
+       2 number of megabites	 256 Local Size_SIZE_threads_per_size 	      8192 num work groups 	     7.894 GigaMultsPerSecond
+clEnqueueNDRangeKernel failed: -52
+       2 number of megabites	 512 Local Size_SIZE_threads_per_size 	      4096 num work groups 	     7.414 GigaMultsPerSecond
+clEnqueueNDRangeKernel failed: -52
+       4 number of megabites	   1 Local Size_SIZE_threads_per_size 	   4194304 num work groups 	    13.435 GigaMultsPerSecond
+clEnqueueNDRangeKernel failed: -52
+       4 number of megabites	   4 Local Size_SIZE_threads_per_size 	   1048576 num work groups 	    13.715 GigaMultsPerSecond
+clEnqueueNDRangeKernel failed: -52
+       4 number of megabites	  16 Local Size_SIZE_threads_per_size 	    262144 num work groups 	    15.910 GigaMultsPerSecond
+clEnqueueNDRangeKernel failed: -52
+       4 number of megabites	  32 Local Size_SIZE_threads_per_size 	    131072 num work groups 	    12.858 GigaMultsPerSecond
+clEnqueueNDRangeKernel failed: -52
+       4 number of megabites	  64 Local Size_SIZE_threads_per_size 	     65536 num work groups 	    11.791 GigaMultsPerSecond
+clEnqueueNDRangeKernel failed: -52
+       4 number of megabites	 128 Local Size_SIZE_threads_per_size 	     32768 num work groups 	    11.524 GigaMultsPerSecond
+clEnqueueNDRangeKernel failed: -52
+       4 number of megabites	 256 Local Size_SIZE_threads_per_size 	     16384 num work groups 	    15.038 GigaMultsPerSecond
+clEnqueueNDRangeKernel failed: -52
+       4 number of megabites	 512 Local Size_SIZE_threads_per_size 	      8192 num work groups 	    15.173 GigaMultsPerSecond
+clEnqueueNDRangeKernel failed: -52
+       5 number of megabites	   1 Local Size_SIZE_threads_per_size 	   5242880 num work groups 	    19.220 GigaMultsPerSecond
+clEnqueueNDRangeKernel failed: -52
+       5 number of megabites	   4 Local Size_SIZE_threads_per_size 	   1310720 num work groups 	    15.775 GigaMultsPerSecond
+clEnqueueNDRangeKernel failed: -52
+       5 number of megabites	  16 Local Size_SIZE_threads_per_size 	    327680 num work groups 	    15.181 GigaMultsPerSecond
+clEnqueueNDRangeKernel failed: -52
+       5 number of megabites	  32 Local Size_SIZE_threads_per_size 	    163840 num work groups 	    15.247 GigaMultsPerSecond
+clEnqueueNDRangeKernel failed: -52
+       5 number of megabites	  64 Local Size_SIZE_threads_per_size 	     81920 num work groups 	    16.842 GigaMultsPerSecond
+clEnqueueNDRangeKernel failed: -52
+       5 number of megabites	 128 Local Size_SIZE_threads_per_size 	     40960 num work groups 	    17.143 GigaMultsPerSecond
+clEnqueueNDRangeKernel failed: -52
+       5 number of megabites	 256 Local Size_SIZE_threads_per_size 	     20480 num work groups 	    14.818 GigaMultsPerSecond
+clEnqueueNDRangeKernel failed: -52
+       5 number of megabites	 512 Local Size_SIZE_threads_per_size 	     10240 num work groups 	    16.976 GigaMultsPerSecond
+clEnqueueNDRangeKernel failed: -52
+       8 number of megabites	   1 Local Size_SIZE_threads_per_size 	   8388608 num work groups 	    34.925 GigaMultsPerSecond
+clEnqueueNDRangeKernel failed: -52
+       8 number of megabites	   4 Local Size_SIZE_threads_per_size 	   2097152 num work groups 	    28.425 GigaMultsPerSecond
+clEnqueueNDRangeKernel failed: -52
+       8 number of megabites	  16 Local Size_SIZE_threads_per_size 	    524288 num work groups 	    25.830 GigaMultsPerSecond
+clEnqueueNDRangeKernel failed: -52
+       8 number of megabites	  32 Local Size_SIZE_threads_per_size 	    262144 num work groups 	    21.972 GigaMultsPerSecond
+clEnqueueNDRangeKernel failed: -52
+       8 number of megabites	  64 Local Size_SIZE_threads_per_size 	    131072 num work groups 	    34.776 GigaMultsPerSecond
+clEnqueueNDRangeKernel failed: -52
+       8 number of megabites	 128 Local Size_SIZE_threads_per_size 	     65536 num work groups 	    26.413 GigaMultsPerSecond
+clEnqueueNDRangeKernel failed: -52
+       8 number of megabites	 256 Local Size_SIZE_threads_per_size 	     32768 num work groups 	    22.977 GigaMultsPerSecond
+clEnqueueNDRangeKernel failed: -52
+       8 number of megabites	 512 Local Size_SIZE_threads_per_size 	     16384 num work groups 	    20.982 GigaMultsPerSecond
+clEnqueueNDRangeKernel failed: -52
+      16 number of megabites	   1 Local Size_SIZE_threads_per_size 	  16777216 num work groups 	    33.358 GigaMultsPerSecond
+clEnqueueNDRangeKernel failed: -52
+      16 number of megabites	   4 Local Size_SIZE_threads_per_size 	   4194304 num work groups 	    32.875 GigaMultsPerSecond
+clEnqueueNDRangeKernel failed: -52
+      16 number of megabites	  16 Local Size_SIZE_threads_per_size 	   1048576 num work groups 	    31.097 GigaMultsPerSecond
+clEnqueueNDRangeKernel failed: -52
+      16 number of megabites	  32 Local Size_SIZE_threads_per_size 	    524288 num work groups 	    29.494 GigaMultsPerSecond
+clEnqueueNDRangeKernel failed: -52
+      16 number of megabites	  64 Local Size_SIZE_threads_per_size 	    262144 num work groups 	    34.576 GigaMultsPerSecond
+clEnqueueNDRangeKernel failed: -52
+      16 number of megabites	 128 Local Size_SIZE_threads_per_size 	    131072 num work groups 	    33.221 GigaMultsPerSecond
+clEnqueueNDRangeKernel failed: -52
+      16 number of megabites	 256 Local Size_SIZE_threads_per_size 	     65536 num work groups 	    34.689 GigaMultsPerSecond
+clEnqueueNDRangeKernel failed: -52
+      16 number of megabites	 512 Local Size_SIZE_threads_per_size 	     32768 num work groups 	    30.025 GigaMultsPerSecond
