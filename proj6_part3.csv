@@ -1,0 +1,6 @@
+       1 number of megabites	  64 Local Size_SIZE_threads_per_size 	     16384 num work groups 	     2.395 GigaMultsPerSecond
+       2 number of megabites	  64 Local Size_SIZE_threads_per_size 	     32768 num work groups 	     3.561 GigaMultsPerSecond
+       4 number of megabites	  64 Local Size_SIZE_threads_per_size 	     65536 num work groups 	     4.783 GigaMultsPerSecond
+       5 number of megabites	  64 Local Size_SIZE_threads_per_size 	     81920 num work groups 	     5.094 GigaMultsPerSecond
+       8 number of megabites	  64 Local Size_SIZE_threads_per_size 	    131072 num work groups 	     5.348 GigaMultsPerSecond
+      16 number of megabites	  64 Local Size_SIZE_threads_per_size 	    262144 num work groups 	     6.018 GigaMultsPerSecond
