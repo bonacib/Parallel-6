@@ -34,6 +34,7 @@
 #define	NUM_WORK_GROUPS		NUM_ELEMENTS/LOCAL_SIZE
 
 const char *			CL_FILE_NAME = { "first.cl" };
+const float			TOL = 0.0001f;
 
 void				Wait( cl_command_queue );
 int				LookAtTheBits( float );
@@ -151,7 +152,7 @@ main( int argc, char *argv[ ] )
 
 	// 8. compile and link the kernel code:
 
-	char *options = { "" };
+	char *options = { (char*) "" };
 	status = clBuildProgram( program, 1, &device, options, NULL, NULL );
 	if( status != CL_SUCCESS )
 	{
@@ -207,7 +208,21 @@ main( int argc, char *argv[ ] )
 	if( status != CL_SUCCESS )
 			fprintf( stderr, "clEnqueueReadBuffer failed\n" );
 
-	fprintf( stderr, "%8d\t%4d\t%10d\t%10.3lf GigaMultsPerSecond\n",
+	// did it work?
+
+	for( int i = 0; i < NUM_ELEMENTS; i++ )
+	{
+		float expected = hA[i] * hB[i];
+		if( fabs( hC[i] - expected ) > TOL )
+		{
+			//fprintf( stderr, "%4d: %13.6f * %13.6f wrongly produced %13.6f instead of %13.6f (%13.8f)\n",
+				//i, hA[i], hB[i], hC[i], expected, fabs(hC[i]-expected) );
+			//fprintf( stderr, "%4d:    0x%08x *    0x%08x wrongly produced    0x%08x instead of    0x%08x\n",
+				//i, LookAtTheBits(hA[i]), LookAtTheBits(hB[i]), LookAtTheBits(hC[i]), LookAtTheBits(expected) );
+		}
+	}
+
+	fprintf( stderr, "%8d number of megabites\t%4d Local Size_SIZE_threads_per_size \t%10d num work groups \t%10.3lf GigaMultsPerSecond\n",
 		NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
 
 #ifdef WIN32
