@@ -1,0 +1,2976 @@
+first.cpp: In function ‘int main(int, char**)’:
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:81:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hA = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:82:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hB = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:83:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hC = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:87:22: note: in expansion of macro ‘NUM_ELEMENTS’
+  for( int i = 0; i < NUM_ELEMENTS; i++ )
+                      ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:92:20: note: in expansion of macro ‘NUM_ELEMENTS’
+  size_t dataSize = NUM_ELEMENTS * sizeof(float);
+                    ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:190:31: note: in expansion of macro ‘NUM_ELEMENTS’
+  size_t globalWorkSize[3] = { NUM_ELEMENTS, 1, 1 };
+                               ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:213:22: note: in expansion of macro ‘NUM_ELEMENTS’
+  for( int i = 0; i < NUM_ELEMENTS; i++ )
+                      ^
+first.cpp:226:6: error: expected primary-expression before ‘,’ token
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+      ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:34:26: note: in expansion of macro ‘NUM_ELEMENTS’
+ #define NUM_WORK_GROUPS  NUM_ELEMENTS/LOCAL_SIZE
+                          ^
+first.cpp:226:20: note: in expansion of macro ‘NUM_WORK_GROUPS’
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+                    ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:226:45: note: in expansion of macro ‘NUM_ELEMENTS’
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+                                             ^
+      16 number of megabites	 512 Local Size_SIZE_threads_per_size 	     32768 num work groups 	    10.010 GigaMultsPerSecond
+first.cpp: In function ‘int main(int, char**)’:
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:81:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hA = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:82:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hB = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:83:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hC = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:87:22: note: in expansion of macro ‘NUM_ELEMENTS’
+  for( int i = 0; i < NUM_ELEMENTS; i++ )
+                      ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:92:20: note: in expansion of macro ‘NUM_ELEMENTS’
+  size_t dataSize = NUM_ELEMENTS * sizeof(float);
+                    ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:190:31: note: in expansion of macro ‘NUM_ELEMENTS’
+  size_t globalWorkSize[3] = { NUM_ELEMENTS, 1, 1 };
+                               ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:213:22: note: in expansion of macro ‘NUM_ELEMENTS’
+  for( int i = 0; i < NUM_ELEMENTS; i++ )
+                      ^
+first.cpp:226:6: error: expected primary-expression before ‘,’ token
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+      ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:34:26: note: in expansion of macro ‘NUM_ELEMENTS’
+ #define NUM_WORK_GROUPS  NUM_ELEMENTS/LOCAL_SIZE
+                          ^
+first.cpp:226:20: note: in expansion of macro ‘NUM_WORK_GROUPS’
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+                    ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:226:45: note: in expansion of macro ‘NUM_ELEMENTS’
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+                                             ^
+      16 number of megabites	 512 Local Size_SIZE_threads_per_size 	     32768 num work groups 	    27.130 GigaMultsPerSecond
+first.cpp: In function ‘int main(int, char**)’:
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:81:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hA = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:82:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hB = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:83:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hC = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:87:22: note: in expansion of macro ‘NUM_ELEMENTS’
+  for( int i = 0; i < NUM_ELEMENTS; i++ )
+                      ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:92:20: note: in expansion of macro ‘NUM_ELEMENTS’
+  size_t dataSize = NUM_ELEMENTS * sizeof(float);
+                    ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:190:31: note: in expansion of macro ‘NUM_ELEMENTS’
+  size_t globalWorkSize[3] = { NUM_ELEMENTS, 1, 1 };
+                               ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:213:22: note: in expansion of macro ‘NUM_ELEMENTS’
+  for( int i = 0; i < NUM_ELEMENTS; i++ )
+                      ^
+first.cpp:226:6: error: expected primary-expression before ‘,’ token
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+      ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:34:26: note: in expansion of macro ‘NUM_ELEMENTS’
+ #define NUM_WORK_GROUPS  NUM_ELEMENTS/LOCAL_SIZE
+                          ^
+first.cpp:226:20: note: in expansion of macro ‘NUM_WORK_GROUPS’
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+                    ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:226:45: note: in expansion of macro ‘NUM_ELEMENTS’
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+                                             ^
+      16 number of megabites	 512 Local Size_SIZE_threads_per_size 	     32768 num work groups 	    26.593 GigaMultsPerSecond
+first.cpp: In function ‘int main(int, char**)’:
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:81:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hA = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:82:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hB = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:83:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hC = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:87:22: note: in expansion of macro ‘NUM_ELEMENTS’
+  for( int i = 0; i < NUM_ELEMENTS; i++ )
+                      ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:92:20: note: in expansion of macro ‘NUM_ELEMENTS’
+  size_t dataSize = NUM_ELEMENTS * sizeof(float);
+                    ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:190:31: note: in expansion of macro ‘NUM_ELEMENTS’
+  size_t globalWorkSize[3] = { NUM_ELEMENTS, 1, 1 };
+                               ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:213:22: note: in expansion of macro ‘NUM_ELEMENTS’
+  for( int i = 0; i < NUM_ELEMENTS; i++ )
+                      ^
+first.cpp:226:6: error: expected primary-expression before ‘,’ token
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+      ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:34:26: note: in expansion of macro ‘NUM_ELEMENTS’
+ #define NUM_WORK_GROUPS  NUM_ELEMENTS/LOCAL_SIZE
+                          ^
+first.cpp:226:20: note: in expansion of macro ‘NUM_WORK_GROUPS’
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+                    ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:226:45: note: in expansion of macro ‘NUM_ELEMENTS’
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+                                             ^
+      16 number of megabites	 512 Local Size_SIZE_threads_per_size 	     32768 num work groups 	    27.418 GigaMultsPerSecond
+first.cpp: In function ‘int main(int, char**)’:
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:81:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hA = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:82:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hB = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:83:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hC = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:87:22: note: in expansion of macro ‘NUM_ELEMENTS’
+  for( int i = 0; i < NUM_ELEMENTS; i++ )
+                      ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:92:20: note: in expansion of macro ‘NUM_ELEMENTS’
+  size_t dataSize = NUM_ELEMENTS * sizeof(float);
+                    ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:190:31: note: in expansion of macro ‘NUM_ELEMENTS’
+  size_t globalWorkSize[3] = { NUM_ELEMENTS, 1, 1 };
+                               ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:213:22: note: in expansion of macro ‘NUM_ELEMENTS’
+  for( int i = 0; i < NUM_ELEMENTS; i++ )
+                      ^
+first.cpp:226:6: error: expected primary-expression before ‘,’ token
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+      ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:34:26: note: in expansion of macro ‘NUM_ELEMENTS’
+ #define NUM_WORK_GROUPS  NUM_ELEMENTS/LOCAL_SIZE
+                          ^
+first.cpp:226:20: note: in expansion of macro ‘NUM_WORK_GROUPS’
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+                    ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:226:45: note: in expansion of macro ‘NUM_ELEMENTS’
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+                                             ^
+      16 number of megabites	 512 Local Size_SIZE_threads_per_size 	     32768 num work groups 	    26.029 GigaMultsPerSecond
+first.cpp: In function ‘int main(int, char**)’:
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:81:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hA = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:82:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hB = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:83:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hC = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:87:22: note: in expansion of macro ‘NUM_ELEMENTS’
+  for( int i = 0; i < NUM_ELEMENTS; i++ )
+                      ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:92:20: note: in expansion of macro ‘NUM_ELEMENTS’
+  size_t dataSize = NUM_ELEMENTS * sizeof(float);
+                    ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:190:31: note: in expansion of macro ‘NUM_ELEMENTS’
+  size_t globalWorkSize[3] = { NUM_ELEMENTS, 1, 1 };
+                               ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:213:22: note: in expansion of macro ‘NUM_ELEMENTS’
+  for( int i = 0; i < NUM_ELEMENTS; i++ )
+                      ^
+first.cpp:226:6: error: expected primary-expression before ‘,’ token
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+      ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:34:26: note: in expansion of macro ‘NUM_ELEMENTS’
+ #define NUM_WORK_GROUPS  NUM_ELEMENTS/LOCAL_SIZE
+                          ^
+first.cpp:226:20: note: in expansion of macro ‘NUM_WORK_GROUPS’
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+                    ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:226:45: note: in expansion of macro ‘NUM_ELEMENTS’
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+                                             ^
+      16 number of megabites	 512 Local Size_SIZE_threads_per_size 	     32768 num work groups 	    27.120 GigaMultsPerSecond
+first.cpp: In function ‘int main(int, char**)’:
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:81:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hA = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:82:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hB = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:83:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hC = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:87:22: note: in expansion of macro ‘NUM_ELEMENTS’
+  for( int i = 0; i < NUM_ELEMENTS; i++ )
+                      ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:92:20: note: in expansion of macro ‘NUM_ELEMENTS’
+  size_t dataSize = NUM_ELEMENTS * sizeof(float);
+                    ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:190:31: note: in expansion of macro ‘NUM_ELEMENTS’
+  size_t globalWorkSize[3] = { NUM_ELEMENTS, 1, 1 };
+                               ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:213:22: note: in expansion of macro ‘NUM_ELEMENTS’
+  for( int i = 0; i < NUM_ELEMENTS; i++ )
+                      ^
+first.cpp:226:6: error: expected primary-expression before ‘,’ token
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+      ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:34:26: note: in expansion of macro ‘NUM_ELEMENTS’
+ #define NUM_WORK_GROUPS  NUM_ELEMENTS/LOCAL_SIZE
+                          ^
+first.cpp:226:20: note: in expansion of macro ‘NUM_WORK_GROUPS’
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+                    ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:226:45: note: in expansion of macro ‘NUM_ELEMENTS’
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+                                             ^
+      16 number of megabites	 512 Local Size_SIZE_threads_per_size 	     32768 num work groups 	    27.118 GigaMultsPerSecond
+first.cpp: In function ‘int main(int, char**)’:
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:81:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hA = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:82:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hB = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:83:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hC = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:87:22: note: in expansion of macro ‘NUM_ELEMENTS’
+  for( int i = 0; i < NUM_ELEMENTS; i++ )
+                      ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:92:20: note: in expansion of macro ‘NUM_ELEMENTS’
+  size_t dataSize = NUM_ELEMENTS * sizeof(float);
+                    ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:190:31: note: in expansion of macro ‘NUM_ELEMENTS’
+  size_t globalWorkSize[3] = { NUM_ELEMENTS, 1, 1 };
+                               ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:213:22: note: in expansion of macro ‘NUM_ELEMENTS’
+  for( int i = 0; i < NUM_ELEMENTS; i++ )
+                      ^
+first.cpp:226:6: error: expected primary-expression before ‘,’ token
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+      ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:34:26: note: in expansion of macro ‘NUM_ELEMENTS’
+ #define NUM_WORK_GROUPS  NUM_ELEMENTS/LOCAL_SIZE
+                          ^
+first.cpp:226:20: note: in expansion of macro ‘NUM_WORK_GROUPS’
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+                    ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:226:45: note: in expansion of macro ‘NUM_ELEMENTS’
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+                                             ^
+      16 number of megabites	 512 Local Size_SIZE_threads_per_size 	     32768 num work groups 	    26.883 GigaMultsPerSecond
+first.cpp: In function ‘int main(int, char**)’:
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:81:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hA = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:82:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hB = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:83:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hC = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:87:22: note: in expansion of macro ‘NUM_ELEMENTS’
+  for( int i = 0; i < NUM_ELEMENTS; i++ )
+                      ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:92:20: note: in expansion of macro ‘NUM_ELEMENTS’
+  size_t dataSize = NUM_ELEMENTS * sizeof(float);
+                    ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:190:31: note: in expansion of macro ‘NUM_ELEMENTS’
+  size_t globalWorkSize[3] = { NUM_ELEMENTS, 1, 1 };
+                               ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:213:22: note: in expansion of macro ‘NUM_ELEMENTS’
+  for( int i = 0; i < NUM_ELEMENTS; i++ )
+                      ^
+first.cpp:226:6: error: expected primary-expression before ‘,’ token
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+      ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:34:26: note: in expansion of macro ‘NUM_ELEMENTS’
+ #define NUM_WORK_GROUPS  NUM_ELEMENTS/LOCAL_SIZE
+                          ^
+first.cpp:226:20: note: in expansion of macro ‘NUM_WORK_GROUPS’
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+                    ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:226:45: note: in expansion of macro ‘NUM_ELEMENTS’
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+                                             ^
+      16 number of megabites	 512 Local Size_SIZE_threads_per_size 	     32768 num work groups 	    26.609 GigaMultsPerSecond
+first.cpp: In function ‘int main(int, char**)’:
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:81:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hA = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:82:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hB = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:83:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hC = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:87:22: note: in expansion of macro ‘NUM_ELEMENTS’
+  for( int i = 0; i < NUM_ELEMENTS; i++ )
+                      ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:92:20: note: in expansion of macro ‘NUM_ELEMENTS’
+  size_t dataSize = NUM_ELEMENTS * sizeof(float);
+                    ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:190:31: note: in expansion of macro ‘NUM_ELEMENTS’
+  size_t globalWorkSize[3] = { NUM_ELEMENTS, 1, 1 };
+                               ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:213:22: note: in expansion of macro ‘NUM_ELEMENTS’
+  for( int i = 0; i < NUM_ELEMENTS; i++ )
+                      ^
+first.cpp:226:6: error: expected primary-expression before ‘,’ token
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+      ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:34:26: note: in expansion of macro ‘NUM_ELEMENTS’
+ #define NUM_WORK_GROUPS  NUM_ELEMENTS/LOCAL_SIZE
+                          ^
+first.cpp:226:20: note: in expansion of macro ‘NUM_WORK_GROUPS’
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+                    ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:226:45: note: in expansion of macro ‘NUM_ELEMENTS’
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+                                             ^
+      16 number of megabites	 512 Local Size_SIZE_threads_per_size 	     32768 num work groups 	    26.925 GigaMultsPerSecond
+first.cpp: In function ‘int main(int, char**)’:
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:81:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hA = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:82:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hB = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:83:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hC = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:87:22: note: in expansion of macro ‘NUM_ELEMENTS’
+  for( int i = 0; i < NUM_ELEMENTS; i++ )
+                      ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:92:20: note: in expansion of macro ‘NUM_ELEMENTS’
+  size_t dataSize = NUM_ELEMENTS * sizeof(float);
+                    ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:190:31: note: in expansion of macro ‘NUM_ELEMENTS’
+  size_t globalWorkSize[3] = { NUM_ELEMENTS, 1, 1 };
+                               ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:213:22: note: in expansion of macro ‘NUM_ELEMENTS’
+  for( int i = 0; i < NUM_ELEMENTS; i++ )
+                      ^
+first.cpp:226:6: error: expected primary-expression before ‘,’ token
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+      ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:34:26: note: in expansion of macro ‘NUM_ELEMENTS’
+ #define NUM_WORK_GROUPS  NUM_ELEMENTS/LOCAL_SIZE
+                          ^
+first.cpp:226:20: note: in expansion of macro ‘NUM_WORK_GROUPS’
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+                    ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:226:45: note: in expansion of macro ‘NUM_ELEMENTS’
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+                                             ^
+      16 number of megabites	 512 Local Size_SIZE_threads_per_size 	     32768 num work groups 	    26.833 GigaMultsPerSecond
+first.cpp: In function ‘int main(int, char**)’:
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:81:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hA = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:82:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hB = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:83:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hC = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:87:22: note: in expansion of macro ‘NUM_ELEMENTS’
+  for( int i = 0; i < NUM_ELEMENTS; i++ )
+                      ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:92:20: note: in expansion of macro ‘NUM_ELEMENTS’
+  size_t dataSize = NUM_ELEMENTS * sizeof(float);
+                    ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:190:31: note: in expansion of macro ‘NUM_ELEMENTS’
+  size_t globalWorkSize[3] = { NUM_ELEMENTS, 1, 1 };
+                               ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:213:22: note: in expansion of macro ‘NUM_ELEMENTS’
+  for( int i = 0; i < NUM_ELEMENTS; i++ )
+                      ^
+first.cpp:226:6: error: expected primary-expression before ‘,’ token
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+      ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:34:26: note: in expansion of macro ‘NUM_ELEMENTS’
+ #define NUM_WORK_GROUPS  NUM_ELEMENTS/LOCAL_SIZE
+                          ^
+first.cpp:226:20: note: in expansion of macro ‘NUM_WORK_GROUPS’
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+                    ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:226:45: note: in expansion of macro ‘NUM_ELEMENTS’
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+                                             ^
+      16 number of megabites	 512 Local Size_SIZE_threads_per_size 	     32768 num work groups 	    27.516 GigaMultsPerSecond
+first.cpp: In function ‘int main(int, char**)’:
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:81:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hA = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:82:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hB = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:83:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hC = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:87:22: note: in expansion of macro ‘NUM_ELEMENTS’
+  for( int i = 0; i < NUM_ELEMENTS; i++ )
+                      ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:92:20: note: in expansion of macro ‘NUM_ELEMENTS’
+  size_t dataSize = NUM_ELEMENTS * sizeof(float);
+                    ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:190:31: note: in expansion of macro ‘NUM_ELEMENTS’
+  size_t globalWorkSize[3] = { NUM_ELEMENTS, 1, 1 };
+                               ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:213:22: note: in expansion of macro ‘NUM_ELEMENTS’
+  for( int i = 0; i < NUM_ELEMENTS; i++ )
+                      ^
+first.cpp:226:6: error: expected primary-expression before ‘,’ token
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+      ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:34:26: note: in expansion of macro ‘NUM_ELEMENTS’
+ #define NUM_WORK_GROUPS  NUM_ELEMENTS/LOCAL_SIZE
+                          ^
+first.cpp:226:20: note: in expansion of macro ‘NUM_WORK_GROUPS’
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+                    ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:226:45: note: in expansion of macro ‘NUM_ELEMENTS’
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+                                             ^
+      16 number of megabites	 512 Local Size_SIZE_threads_per_size 	     32768 num work groups 	    27.244 GigaMultsPerSecond
+first.cpp: In function ‘int main(int, char**)’:
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:81:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hA = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:82:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hB = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:83:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hC = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:87:22: note: in expansion of macro ‘NUM_ELEMENTS’
+  for( int i = 0; i < NUM_ELEMENTS; i++ )
+                      ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:92:20: note: in expansion of macro ‘NUM_ELEMENTS’
+  size_t dataSize = NUM_ELEMENTS * sizeof(float);
+                    ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:190:31: note: in expansion of macro ‘NUM_ELEMENTS’
+  size_t globalWorkSize[3] = { NUM_ELEMENTS, 1, 1 };
+                               ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:213:22: note: in expansion of macro ‘NUM_ELEMENTS’
+  for( int i = 0; i < NUM_ELEMENTS; i++ )
+                      ^
+first.cpp:226:6: error: expected primary-expression before ‘,’ token
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+      ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:34:26: note: in expansion of macro ‘NUM_ELEMENTS’
+ #define NUM_WORK_GROUPS  NUM_ELEMENTS/LOCAL_SIZE
+                          ^
+first.cpp:226:20: note: in expansion of macro ‘NUM_WORK_GROUPS’
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+                    ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:226:45: note: in expansion of macro ‘NUM_ELEMENTS’
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+                                             ^
+      16 number of megabites	 512 Local Size_SIZE_threads_per_size 	     32768 num work groups 	    27.035 GigaMultsPerSecond
+first.cpp: In function ‘int main(int, char**)’:
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:81:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hA = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:82:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hB = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:83:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hC = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:87:22: note: in expansion of macro ‘NUM_ELEMENTS’
+  for( int i = 0; i < NUM_ELEMENTS; i++ )
+                      ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:92:20: note: in expansion of macro ‘NUM_ELEMENTS’
+  size_t dataSize = NUM_ELEMENTS * sizeof(float);
+                    ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:190:31: note: in expansion of macro ‘NUM_ELEMENTS’
+  size_t globalWorkSize[3] = { NUM_ELEMENTS, 1, 1 };
+                               ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:213:22: note: in expansion of macro ‘NUM_ELEMENTS’
+  for( int i = 0; i < NUM_ELEMENTS; i++ )
+                      ^
+first.cpp:226:6: error: expected primary-expression before ‘,’ token
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+      ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:34:26: note: in expansion of macro ‘NUM_ELEMENTS’
+ #define NUM_WORK_GROUPS  NUM_ELEMENTS/LOCAL_SIZE
+                          ^
+first.cpp:226:20: note: in expansion of macro ‘NUM_WORK_GROUPS’
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+                    ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:226:45: note: in expansion of macro ‘NUM_ELEMENTS’
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+                                             ^
+      16 number of megabites	 512 Local Size_SIZE_threads_per_size 	     32768 num work groups 	    26.943 GigaMultsPerSecond
+first.cpp: In function ‘int main(int, char**)’:
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:81:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hA = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:82:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hB = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:83:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hC = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:87:22: note: in expansion of macro ‘NUM_ELEMENTS’
+  for( int i = 0; i < NUM_ELEMENTS; i++ )
+                      ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:92:20: note: in expansion of macro ‘NUM_ELEMENTS’
+  size_t dataSize = NUM_ELEMENTS * sizeof(float);
+                    ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:190:31: note: in expansion of macro ‘NUM_ELEMENTS’
+  size_t globalWorkSize[3] = { NUM_ELEMENTS, 1, 1 };
+                               ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:213:22: note: in expansion of macro ‘NUM_ELEMENTS’
+  for( int i = 0; i < NUM_ELEMENTS; i++ )
+                      ^
+first.cpp:226:6: error: expected primary-expression before ‘,’ token
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+      ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:34:26: note: in expansion of macro ‘NUM_ELEMENTS’
+ #define NUM_WORK_GROUPS  NUM_ELEMENTS/LOCAL_SIZE
+                          ^
+first.cpp:226:20: note: in expansion of macro ‘NUM_WORK_GROUPS’
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+                    ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:226:45: note: in expansion of macro ‘NUM_ELEMENTS’
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+                                             ^
+      16 number of megabites	 512 Local Size_SIZE_threads_per_size 	     32768 num work groups 	    27.123 GigaMultsPerSecond
+first.cpp: In function ‘int main(int, char**)’:
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:81:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hA = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:82:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hB = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:83:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hC = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:87:22: note: in expansion of macro ‘NUM_ELEMENTS’
+  for( int i = 0; i < NUM_ELEMENTS; i++ )
+                      ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:92:20: note: in expansion of macro ‘NUM_ELEMENTS’
+  size_t dataSize = NUM_ELEMENTS * sizeof(float);
+                    ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:190:31: note: in expansion of macro ‘NUM_ELEMENTS’
+  size_t globalWorkSize[3] = { NUM_ELEMENTS, 1, 1 };
+                               ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:213:22: note: in expansion of macro ‘NUM_ELEMENTS’
+  for( int i = 0; i < NUM_ELEMENTS; i++ )
+                      ^
+first.cpp:226:6: error: expected primary-expression before ‘,’ token
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+      ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:34:26: note: in expansion of macro ‘NUM_ELEMENTS’
+ #define NUM_WORK_GROUPS  NUM_ELEMENTS/LOCAL_SIZE
+                          ^
+first.cpp:226:20: note: in expansion of macro ‘NUM_WORK_GROUPS’
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+                    ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:226:45: note: in expansion of macro ‘NUM_ELEMENTS’
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+                                             ^
+      16 number of megabites	 512 Local Size_SIZE_threads_per_size 	     32768 num work groups 	    26.923 GigaMultsPerSecond
+first.cpp: In function ‘int main(int, char**)’:
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:81:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hA = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:82:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hB = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:83:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hC = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:87:22: note: in expansion of macro ‘NUM_ELEMENTS’
+  for( int i = 0; i < NUM_ELEMENTS; i++ )
+                      ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:92:20: note: in expansion of macro ‘NUM_ELEMENTS’
+  size_t dataSize = NUM_ELEMENTS * sizeof(float);
+                    ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:190:31: note: in expansion of macro ‘NUM_ELEMENTS’
+  size_t globalWorkSize[3] = { NUM_ELEMENTS, 1, 1 };
+                               ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:213:22: note: in expansion of macro ‘NUM_ELEMENTS’
+  for( int i = 0; i < NUM_ELEMENTS; i++ )
+                      ^
+first.cpp:226:6: error: expected primary-expression before ‘,’ token
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+      ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:34:26: note: in expansion of macro ‘NUM_ELEMENTS’
+ #define NUM_WORK_GROUPS  NUM_ELEMENTS/LOCAL_SIZE
+                          ^
+first.cpp:226:20: note: in expansion of macro ‘NUM_WORK_GROUPS’
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+                    ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:226:45: note: in expansion of macro ‘NUM_ELEMENTS’
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+                                             ^
+      16 number of megabites	 512 Local Size_SIZE_threads_per_size 	     32768 num work groups 	    27.328 GigaMultsPerSecond
+first.cpp: In function ‘int main(int, char**)’:
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:81:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hA = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:82:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hB = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:83:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hC = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:87:22: note: in expansion of macro ‘NUM_ELEMENTS’
+  for( int i = 0; i < NUM_ELEMENTS; i++ )
+                      ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:92:20: note: in expansion of macro ‘NUM_ELEMENTS’
+  size_t dataSize = NUM_ELEMENTS * sizeof(float);
+                    ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:190:31: note: in expansion of macro ‘NUM_ELEMENTS’
+  size_t globalWorkSize[3] = { NUM_ELEMENTS, 1, 1 };
+                               ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:213:22: note: in expansion of macro ‘NUM_ELEMENTS’
+  for( int i = 0; i < NUM_ELEMENTS; i++ )
+                      ^
+first.cpp:226:6: error: expected primary-expression before ‘,’ token
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+      ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:34:26: note: in expansion of macro ‘NUM_ELEMENTS’
+ #define NUM_WORK_GROUPS  NUM_ELEMENTS/LOCAL_SIZE
+                          ^
+first.cpp:226:20: note: in expansion of macro ‘NUM_WORK_GROUPS’
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+                    ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:226:45: note: in expansion of macro ‘NUM_ELEMENTS’
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+                                             ^
+      16 number of megabites	 512 Local Size_SIZE_threads_per_size 	     32768 num work groups 	    26.481 GigaMultsPerSecond
+first.cpp: In function ‘int main(int, char**)’:
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:81:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hA = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:82:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hB = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:83:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hC = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:87:22: note: in expansion of macro ‘NUM_ELEMENTS’
+  for( int i = 0; i < NUM_ELEMENTS; i++ )
+                      ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:92:20: note: in expansion of macro ‘NUM_ELEMENTS’
+  size_t dataSize = NUM_ELEMENTS * sizeof(float);
+                    ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:190:31: note: in expansion of macro ‘NUM_ELEMENTS’
+  size_t globalWorkSize[3] = { NUM_ELEMENTS, 1, 1 };
+                               ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:213:22: note: in expansion of macro ‘NUM_ELEMENTS’
+  for( int i = 0; i < NUM_ELEMENTS; i++ )
+                      ^
+first.cpp:226:6: error: expected primary-expression before ‘,’ token
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+      ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:34:26: note: in expansion of macro ‘NUM_ELEMENTS’
+ #define NUM_WORK_GROUPS  NUM_ELEMENTS/LOCAL_SIZE
+                          ^
+first.cpp:226:20: note: in expansion of macro ‘NUM_WORK_GROUPS’
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+                    ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:226:45: note: in expansion of macro ‘NUM_ELEMENTS’
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+                                             ^
+      16 number of megabites	 512 Local Size_SIZE_threads_per_size 	     32768 num work groups 	    27.116 GigaMultsPerSecond
+first.cpp: In function ‘int main(int, char**)’:
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:81:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hA = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:82:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hB = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:83:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hC = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:87:22: note: in expansion of macro ‘NUM_ELEMENTS’
+  for( int i = 0; i < NUM_ELEMENTS; i++ )
+                      ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:92:20: note: in expansion of macro ‘NUM_ELEMENTS’
+  size_t dataSize = NUM_ELEMENTS * sizeof(float);
+                    ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:190:31: note: in expansion of macro ‘NUM_ELEMENTS’
+  size_t globalWorkSize[3] = { NUM_ELEMENTS, 1, 1 };
+                               ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:213:22: note: in expansion of macro ‘NUM_ELEMENTS’
+  for( int i = 0; i < NUM_ELEMENTS; i++ )
+                      ^
+first.cpp:226:6: error: expected primary-expression before ‘,’ token
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+      ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:34:26: note: in expansion of macro ‘NUM_ELEMENTS’
+ #define NUM_WORK_GROUPS  NUM_ELEMENTS/LOCAL_SIZE
+                          ^
+first.cpp:226:20: note: in expansion of macro ‘NUM_WORK_GROUPS’
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+                    ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:226:45: note: in expansion of macro ‘NUM_ELEMENTS’
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+                                             ^
+      16 number of megabites	 512 Local Size_SIZE_threads_per_size 	     32768 num work groups 	    26.419 GigaMultsPerSecond
+first.cpp: In function ‘int main(int, char**)’:
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:81:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hA = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:82:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hB = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:83:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hC = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:87:22: note: in expansion of macro ‘NUM_ELEMENTS’
+  for( int i = 0; i < NUM_ELEMENTS; i++ )
+                      ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:92:20: note: in expansion of macro ‘NUM_ELEMENTS’
+  size_t dataSize = NUM_ELEMENTS * sizeof(float);
+                    ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:190:31: note: in expansion of macro ‘NUM_ELEMENTS’
+  size_t globalWorkSize[3] = { NUM_ELEMENTS, 1, 1 };
+                               ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:213:22: note: in expansion of macro ‘NUM_ELEMENTS’
+  for( int i = 0; i < NUM_ELEMENTS; i++ )
+                      ^
+first.cpp:226:6: error: expected primary-expression before ‘,’ token
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+      ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:34:26: note: in expansion of macro ‘NUM_ELEMENTS’
+ #define NUM_WORK_GROUPS  NUM_ELEMENTS/LOCAL_SIZE
+                          ^
+first.cpp:226:20: note: in expansion of macro ‘NUM_WORK_GROUPS’
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+                    ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:226:45: note: in expansion of macro ‘NUM_ELEMENTS’
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+                                             ^
+      16 number of megabites	 512 Local Size_SIZE_threads_per_size 	     32768 num work groups 	    26.711 GigaMultsPerSecond
+first.cpp: In function ‘int main(int, char**)’:
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:81:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hA = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:82:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hB = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:83:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hC = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:87:22: note: in expansion of macro ‘NUM_ELEMENTS’
+  for( int i = 0; i < NUM_ELEMENTS; i++ )
+                      ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:92:20: note: in expansion of macro ‘NUM_ELEMENTS’
+  size_t dataSize = NUM_ELEMENTS * sizeof(float);
+                    ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:190:31: note: in expansion of macro ‘NUM_ELEMENTS’
+  size_t globalWorkSize[3] = { NUM_ELEMENTS, 1, 1 };
+                               ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:213:22: note: in expansion of macro ‘NUM_ELEMENTS’
+  for( int i = 0; i < NUM_ELEMENTS; i++ )
+                      ^
+first.cpp:226:6: error: expected primary-expression before ‘,’ token
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+      ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:34:26: note: in expansion of macro ‘NUM_ELEMENTS’
+ #define NUM_WORK_GROUPS  NUM_ELEMENTS/LOCAL_SIZE
+                          ^
+first.cpp:226:20: note: in expansion of macro ‘NUM_WORK_GROUPS’
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+                    ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:226:45: note: in expansion of macro ‘NUM_ELEMENTS’
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+                                             ^
+      16 number of megabites	 512 Local Size_SIZE_threads_per_size 	     32768 num work groups 	    27.555 GigaMultsPerSecond
+first.cpp: In function ‘int main(int, char**)’:
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:81:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hA = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:82:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hB = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:83:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hC = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:87:22: note: in expansion of macro ‘NUM_ELEMENTS’
+  for( int i = 0; i < NUM_ELEMENTS; i++ )
+                      ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:92:20: note: in expansion of macro ‘NUM_ELEMENTS’
+  size_t dataSize = NUM_ELEMENTS * sizeof(float);
+                    ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:190:31: note: in expansion of macro ‘NUM_ELEMENTS’
+  size_t globalWorkSize[3] = { NUM_ELEMENTS, 1, 1 };
+                               ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:213:22: note: in expansion of macro ‘NUM_ELEMENTS’
+  for( int i = 0; i < NUM_ELEMENTS; i++ )
+                      ^
+first.cpp:226:6: error: expected primary-expression before ‘,’ token
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+      ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:34:26: note: in expansion of macro ‘NUM_ELEMENTS’
+ #define NUM_WORK_GROUPS  NUM_ELEMENTS/LOCAL_SIZE
+                          ^
+first.cpp:226:20: note: in expansion of macro ‘NUM_WORK_GROUPS’
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+                    ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:226:45: note: in expansion of macro ‘NUM_ELEMENTS’
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+                                             ^
+      16 number of megabites	 512 Local Size_SIZE_threads_per_size 	     32768 num work groups 	    26.407 GigaMultsPerSecond
+first.cpp: In function ‘int main(int, char**)’:
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:81:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hA = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:82:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hB = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:83:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hC = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:87:22: note: in expansion of macro ‘NUM_ELEMENTS’
+  for( int i = 0; i < NUM_ELEMENTS; i++ )
+                      ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:92:20: note: in expansion of macro ‘NUM_ELEMENTS’
+  size_t dataSize = NUM_ELEMENTS * sizeof(float);
+                    ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:190:31: note: in expansion of macro ‘NUM_ELEMENTS’
+  size_t globalWorkSize[3] = { NUM_ELEMENTS, 1, 1 };
+                               ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:213:22: note: in expansion of macro ‘NUM_ELEMENTS’
+  for( int i = 0; i < NUM_ELEMENTS; i++ )
+                      ^
+first.cpp:226:6: error: expected primary-expression before ‘,’ token
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+      ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:34:26: note: in expansion of macro ‘NUM_ELEMENTS’
+ #define NUM_WORK_GROUPS  NUM_ELEMENTS/LOCAL_SIZE
+                          ^
+first.cpp:226:20: note: in expansion of macro ‘NUM_WORK_GROUPS’
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+                    ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:226:45: note: in expansion of macro ‘NUM_ELEMENTS’
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+                                             ^
+      16 number of megabites	 512 Local Size_SIZE_threads_per_size 	     32768 num work groups 	    27.382 GigaMultsPerSecond
+first.cpp: In function ‘int main(int, char**)’:
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:81:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hA = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:82:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hB = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:83:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hC = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:87:22: note: in expansion of macro ‘NUM_ELEMENTS’
+  for( int i = 0; i < NUM_ELEMENTS; i++ )
+                      ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:92:20: note: in expansion of macro ‘NUM_ELEMENTS’
+  size_t dataSize = NUM_ELEMENTS * sizeof(float);
+                    ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:190:31: note: in expansion of macro ‘NUM_ELEMENTS’
+  size_t globalWorkSize[3] = { NUM_ELEMENTS, 1, 1 };
+                               ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:213:22: note: in expansion of macro ‘NUM_ELEMENTS’
+  for( int i = 0; i < NUM_ELEMENTS; i++ )
+                      ^
+first.cpp:226:6: error: expected primary-expression before ‘,’ token
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+      ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:34:26: note: in expansion of macro ‘NUM_ELEMENTS’
+ #define NUM_WORK_GROUPS  NUM_ELEMENTS/LOCAL_SIZE
+                          ^
+first.cpp:226:20: note: in expansion of macro ‘NUM_WORK_GROUPS’
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+                    ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:226:45: note: in expansion of macro ‘NUM_ELEMENTS’
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+                                             ^
+      16 number of megabites	 512 Local Size_SIZE_threads_per_size 	     32768 num work groups 	    27.518 GigaMultsPerSecond
+first.cpp: In function ‘int main(int, char**)’:
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:81:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hA = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:82:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hB = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:83:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hC = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:87:22: note: in expansion of macro ‘NUM_ELEMENTS’
+  for( int i = 0; i < NUM_ELEMENTS; i++ )
+                      ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:92:20: note: in expansion of macro ‘NUM_ELEMENTS’
+  size_t dataSize = NUM_ELEMENTS * sizeof(float);
+                    ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:190:31: note: in expansion of macro ‘NUM_ELEMENTS’
+  size_t globalWorkSize[3] = { NUM_ELEMENTS, 1, 1 };
+                               ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:213:22: note: in expansion of macro ‘NUM_ELEMENTS’
+  for( int i = 0; i < NUM_ELEMENTS; i++ )
+                      ^
+first.cpp:226:6: error: expected primary-expression before ‘,’ token
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+      ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:34:26: note: in expansion of macro ‘NUM_ELEMENTS’
+ #define NUM_WORK_GROUPS  NUM_ELEMENTS/LOCAL_SIZE
+                          ^
+first.cpp:226:20: note: in expansion of macro ‘NUM_WORK_GROUPS’
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+                    ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:226:45: note: in expansion of macro ‘NUM_ELEMENTS’
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+                                             ^
+      16 number of megabites	 512 Local Size_SIZE_threads_per_size 	     32768 num work groups 	    27.393 GigaMultsPerSecond
+first.cpp: In function ‘int main(int, char**)’:
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:81:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hA = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:82:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hB = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:83:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hC = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:87:22: note: in expansion of macro ‘NUM_ELEMENTS’
+  for( int i = 0; i < NUM_ELEMENTS; i++ )
+                      ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:92:20: note: in expansion of macro ‘NUM_ELEMENTS’
+  size_t dataSize = NUM_ELEMENTS * sizeof(float);
+                    ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:190:31: note: in expansion of macro ‘NUM_ELEMENTS’
+  size_t globalWorkSize[3] = { NUM_ELEMENTS, 1, 1 };
+                               ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:213:22: note: in expansion of macro ‘NUM_ELEMENTS’
+  for( int i = 0; i < NUM_ELEMENTS; i++ )
+                      ^
+first.cpp:226:6: error: expected primary-expression before ‘,’ token
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+      ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:34:26: note: in expansion of macro ‘NUM_ELEMENTS’
+ #define NUM_WORK_GROUPS  NUM_ELEMENTS/LOCAL_SIZE
+                          ^
+first.cpp:226:20: note: in expansion of macro ‘NUM_WORK_GROUPS’
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+                    ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:226:45: note: in expansion of macro ‘NUM_ELEMENTS’
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+                                             ^
+      16 number of megabites	 512 Local Size_SIZE_threads_per_size 	     32768 num work groups 	    26.943 GigaMultsPerSecond
+first.cpp: In function ‘int main(int, char**)’:
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:81:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hA = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:82:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hB = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:83:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hC = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:87:22: note: in expansion of macro ‘NUM_ELEMENTS’
+  for( int i = 0; i < NUM_ELEMENTS; i++ )
+                      ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:92:20: note: in expansion of macro ‘NUM_ELEMENTS’
+  size_t dataSize = NUM_ELEMENTS * sizeof(float);
+                    ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:190:31: note: in expansion of macro ‘NUM_ELEMENTS’
+  size_t globalWorkSize[3] = { NUM_ELEMENTS, 1, 1 };
+                               ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:213:22: note: in expansion of macro ‘NUM_ELEMENTS’
+  for( int i = 0; i < NUM_ELEMENTS; i++ )
+                      ^
+first.cpp:226:6: error: expected primary-expression before ‘,’ token
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+      ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:34:26: note: in expansion of macro ‘NUM_ELEMENTS’
+ #define NUM_WORK_GROUPS  NUM_ELEMENTS/LOCAL_SIZE
+                          ^
+first.cpp:226:20: note: in expansion of macro ‘NUM_WORK_GROUPS’
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+                    ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:226:45: note: in expansion of macro ‘NUM_ELEMENTS’
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+                                             ^
+      16 number of megabites	 512 Local Size_SIZE_threads_per_size 	     32768 num work groups 	    26.747 GigaMultsPerSecond
+first.cpp: In function ‘int main(int, char**)’:
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:81:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hA = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:82:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hB = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:83:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hC = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:87:22: note: in expansion of macro ‘NUM_ELEMENTS’
+  for( int i = 0; i < NUM_ELEMENTS; i++ )
+                      ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:92:20: note: in expansion of macro ‘NUM_ELEMENTS’
+  size_t dataSize = NUM_ELEMENTS * sizeof(float);
+                    ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:190:31: note: in expansion of macro ‘NUM_ELEMENTS’
+  size_t globalWorkSize[3] = { NUM_ELEMENTS, 1, 1 };
+                               ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:213:22: note: in expansion of macro ‘NUM_ELEMENTS’
+  for( int i = 0; i < NUM_ELEMENTS; i++ )
+                      ^
+first.cpp:226:6: error: expected primary-expression before ‘,’ token
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+      ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:34:26: note: in expansion of macro ‘NUM_ELEMENTS’
+ #define NUM_WORK_GROUPS  NUM_ELEMENTS/LOCAL_SIZE
+                          ^
+first.cpp:226:20: note: in expansion of macro ‘NUM_WORK_GROUPS’
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+                    ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:226:45: note: in expansion of macro ‘NUM_ELEMENTS’
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+                                             ^
+      16 number of megabites	 512 Local Size_SIZE_threads_per_size 	     32768 num work groups 	    26.608 GigaMultsPerSecond
+first.cpp: In function ‘int main(int, char**)’:
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:81:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hA = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:82:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hB = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:83:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hC = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:87:22: note: in expansion of macro ‘NUM_ELEMENTS’
+  for( int i = 0; i < NUM_ELEMENTS; i++ )
+                      ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:92:20: note: in expansion of macro ‘NUM_ELEMENTS’
+  size_t dataSize = NUM_ELEMENTS * sizeof(float);
+                    ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:190:31: note: in expansion of macro ‘NUM_ELEMENTS’
+  size_t globalWorkSize[3] = { NUM_ELEMENTS, 1, 1 };
+                               ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:213:22: note: in expansion of macro ‘NUM_ELEMENTS’
+  for( int i = 0; i < NUM_ELEMENTS; i++ )
+                      ^
+first.cpp:226:6: error: expected primary-expression before ‘,’ token
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+      ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:34:26: note: in expansion of macro ‘NUM_ELEMENTS’
+ #define NUM_WORK_GROUPS  NUM_ELEMENTS/LOCAL_SIZE
+                          ^
+first.cpp:226:20: note: in expansion of macro ‘NUM_WORK_GROUPS’
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+                    ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:226:45: note: in expansion of macro ‘NUM_ELEMENTS’
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+                                             ^
+      16 number of megabites	 512 Local Size_SIZE_threads_per_size 	     32768 num work groups 	    27.608 GigaMultsPerSecond
+first.cpp: In function ‘int main(int, char**)’:
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:81:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hA = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:82:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hB = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:83:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hC = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:87:22: note: in expansion of macro ‘NUM_ELEMENTS’
+  for( int i = 0; i < NUM_ELEMENTS; i++ )
+                      ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:92:20: note: in expansion of macro ‘NUM_ELEMENTS’
+  size_t dataSize = NUM_ELEMENTS * sizeof(float);
+                    ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:190:31: note: in expansion of macro ‘NUM_ELEMENTS’
+  size_t globalWorkSize[3] = { NUM_ELEMENTS, 1, 1 };
+                               ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:213:22: note: in expansion of macro ‘NUM_ELEMENTS’
+  for( int i = 0; i < NUM_ELEMENTS; i++ )
+                      ^
+first.cpp:226:6: error: expected primary-expression before ‘,’ token
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+      ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:34:26: note: in expansion of macro ‘NUM_ELEMENTS’
+ #define NUM_WORK_GROUPS  NUM_ELEMENTS/LOCAL_SIZE
+                          ^
+first.cpp:226:20: note: in expansion of macro ‘NUM_WORK_GROUPS’
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+                    ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:226:45: note: in expansion of macro ‘NUM_ELEMENTS’
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+                                             ^
+      16 number of megabites	 512 Local Size_SIZE_threads_per_size 	     32768 num work groups 	    27.005 GigaMultsPerSecond
+first.cpp: In function ‘int main(int, char**)’:
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:81:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hA = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:82:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hB = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:83:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hC = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:87:22: note: in expansion of macro ‘NUM_ELEMENTS’
+  for( int i = 0; i < NUM_ELEMENTS; i++ )
+                      ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:92:20: note: in expansion of macro ‘NUM_ELEMENTS’
+  size_t dataSize = NUM_ELEMENTS * sizeof(float);
+                    ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:190:31: note: in expansion of macro ‘NUM_ELEMENTS’
+  size_t globalWorkSize[3] = { NUM_ELEMENTS, 1, 1 };
+                               ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:213:22: note: in expansion of macro ‘NUM_ELEMENTS’
+  for( int i = 0; i < NUM_ELEMENTS; i++ )
+                      ^
+first.cpp:226:6: error: expected primary-expression before ‘,’ token
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+      ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:34:26: note: in expansion of macro ‘NUM_ELEMENTS’
+ #define NUM_WORK_GROUPS  NUM_ELEMENTS/LOCAL_SIZE
+                          ^
+first.cpp:226:20: note: in expansion of macro ‘NUM_WORK_GROUPS’
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+                    ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:226:45: note: in expansion of macro ‘NUM_ELEMENTS’
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+                                             ^
+      16 number of megabites	 512 Local Size_SIZE_threads_per_size 	     32768 num work groups 	    26.576 GigaMultsPerSecond
+first.cpp: In function ‘int main(int, char**)’:
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:81:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hA = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:82:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hB = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:83:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hC = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:87:22: note: in expansion of macro ‘NUM_ELEMENTS’
+  for( int i = 0; i < NUM_ELEMENTS; i++ )
+                      ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:92:20: note: in expansion of macro ‘NUM_ELEMENTS’
+  size_t dataSize = NUM_ELEMENTS * sizeof(float);
+                    ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:190:31: note: in expansion of macro ‘NUM_ELEMENTS’
+  size_t globalWorkSize[3] = { NUM_ELEMENTS, 1, 1 };
+                               ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:213:22: note: in expansion of macro ‘NUM_ELEMENTS’
+  for( int i = 0; i < NUM_ELEMENTS; i++ )
+                      ^
+first.cpp:226:6: error: expected primary-expression before ‘,’ token
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+      ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:34:26: note: in expansion of macro ‘NUM_ELEMENTS’
+ #define NUM_WORK_GROUPS  NUM_ELEMENTS/LOCAL_SIZE
+                          ^
+first.cpp:226:20: note: in expansion of macro ‘NUM_WORK_GROUPS’
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+                    ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:226:45: note: in expansion of macro ‘NUM_ELEMENTS’
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+                                             ^
+      16 number of megabites	 512 Local Size_SIZE_threads_per_size 	     32768 num work groups 	    27.349 GigaMultsPerSecond
+first.cpp: In function ‘int main(int, char**)’:
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:81:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hA = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:82:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hB = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:83:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hC = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:87:22: note: in expansion of macro ‘NUM_ELEMENTS’
+  for( int i = 0; i < NUM_ELEMENTS; i++ )
+                      ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:92:20: note: in expansion of macro ‘NUM_ELEMENTS’
+  size_t dataSize = NUM_ELEMENTS * sizeof(float);
+                    ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:190:31: note: in expansion of macro ‘NUM_ELEMENTS’
+  size_t globalWorkSize[3] = { NUM_ELEMENTS, 1, 1 };
+                               ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:213:22: note: in expansion of macro ‘NUM_ELEMENTS’
+  for( int i = 0; i < NUM_ELEMENTS; i++ )
+                      ^
+first.cpp:226:6: error: expected primary-expression before ‘,’ token
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+      ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:34:26: note: in expansion of macro ‘NUM_ELEMENTS’
+ #define NUM_WORK_GROUPS  NUM_ELEMENTS/LOCAL_SIZE
+                          ^
+first.cpp:226:20: note: in expansion of macro ‘NUM_WORK_GROUPS’
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+                    ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:226:45: note: in expansion of macro ‘NUM_ELEMENTS’
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+                                             ^
+      16 number of megabites	 512 Local Size_SIZE_threads_per_size 	     32768 num work groups 	    27.121 GigaMultsPerSecond
+first.cpp: In function ‘int main(int, char**)’:
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:81:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hA = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:82:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hB = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:83:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hC = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:87:22: note: in expansion of macro ‘NUM_ELEMENTS’
+  for( int i = 0; i < NUM_ELEMENTS; i++ )
+                      ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:92:20: note: in expansion of macro ‘NUM_ELEMENTS’
+  size_t dataSize = NUM_ELEMENTS * sizeof(float);
+                    ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:190:31: note: in expansion of macro ‘NUM_ELEMENTS’
+  size_t globalWorkSize[3] = { NUM_ELEMENTS, 1, 1 };
+                               ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:213:22: note: in expansion of macro ‘NUM_ELEMENTS’
+  for( int i = 0; i < NUM_ELEMENTS; i++ )
+                      ^
+first.cpp:226:6: error: expected primary-expression before ‘,’ token
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+      ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:34:26: note: in expansion of macro ‘NUM_ELEMENTS’
+ #define NUM_WORK_GROUPS  NUM_ELEMENTS/LOCAL_SIZE
+                          ^
+first.cpp:226:20: note: in expansion of macro ‘NUM_WORK_GROUPS’
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+                    ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:226:45: note: in expansion of macro ‘NUM_ELEMENTS’
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+                                             ^
+      16 number of megabites	 512 Local Size_SIZE_threads_per_size 	     32768 num work groups 	    26.636 GigaMultsPerSecond
+first.cpp: In function ‘int main(int, char**)’:
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:81:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hA = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:82:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hB = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:83:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hC = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:87:22: note: in expansion of macro ‘NUM_ELEMENTS’
+  for( int i = 0; i < NUM_ELEMENTS; i++ )
+                      ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:92:20: note: in expansion of macro ‘NUM_ELEMENTS’
+  size_t dataSize = NUM_ELEMENTS * sizeof(float);
+                    ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:190:31: note: in expansion of macro ‘NUM_ELEMENTS’
+  size_t globalWorkSize[3] = { NUM_ELEMENTS, 1, 1 };
+                               ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:213:22: note: in expansion of macro ‘NUM_ELEMENTS’
+  for( int i = 0; i < NUM_ELEMENTS; i++ )
+                      ^
+first.cpp:226:6: error: expected primary-expression before ‘,’ token
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+      ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:34:26: note: in expansion of macro ‘NUM_ELEMENTS’
+ #define NUM_WORK_GROUPS  NUM_ELEMENTS/LOCAL_SIZE
+                          ^
+first.cpp:226:20: note: in expansion of macro ‘NUM_WORK_GROUPS’
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+                    ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:226:45: note: in expansion of macro ‘NUM_ELEMENTS’
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+                                             ^
+      16 number of megabites	 512 Local Size_SIZE_threads_per_size 	     32768 num work groups 	    26.847 GigaMultsPerSecond
+first.cpp: In function ‘int main(int, char**)’:
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:81:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hA = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:82:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hB = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:83:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hC = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:87:22: note: in expansion of macro ‘NUM_ELEMENTS’
+  for( int i = 0; i < NUM_ELEMENTS; i++ )
+                      ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:92:20: note: in expansion of macro ‘NUM_ELEMENTS’
+  size_t dataSize = NUM_ELEMENTS * sizeof(float);
+                    ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:190:31: note: in expansion of macro ‘NUM_ELEMENTS’
+  size_t globalWorkSize[3] = { NUM_ELEMENTS, 1, 1 };
+                               ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:213:22: note: in expansion of macro ‘NUM_ELEMENTS’
+  for( int i = 0; i < NUM_ELEMENTS; i++ )
+                      ^
+first.cpp:226:6: error: expected primary-expression before ‘,’ token
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+      ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:34:26: note: in expansion of macro ‘NUM_ELEMENTS’
+ #define NUM_WORK_GROUPS  NUM_ELEMENTS/LOCAL_SIZE
+                          ^
+first.cpp:226:20: note: in expansion of macro ‘NUM_WORK_GROUPS’
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+                    ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:226:45: note: in expansion of macro ‘NUM_ELEMENTS’
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+                                             ^
+      16 number of megabites	 512 Local Size_SIZE_threads_per_size 	     32768 num work groups 	    27.283 GigaMultsPerSecond
+first.cpp: In function ‘int main(int, char**)’:
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:81:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hA = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:82:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hB = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:83:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hC = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:87:22: note: in expansion of macro ‘NUM_ELEMENTS’
+  for( int i = 0; i < NUM_ELEMENTS; i++ )
+                      ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:92:20: note: in expansion of macro ‘NUM_ELEMENTS’
+  size_t dataSize = NUM_ELEMENTS * sizeof(float);
+                    ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:190:31: note: in expansion of macro ‘NUM_ELEMENTS’
+  size_t globalWorkSize[3] = { NUM_ELEMENTS, 1, 1 };
+                               ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:213:22: note: in expansion of macro ‘NUM_ELEMENTS’
+  for( int i = 0; i < NUM_ELEMENTS; i++ )
+                      ^
+first.cpp:226:6: error: expected primary-expression before ‘,’ token
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+      ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:34:26: note: in expansion of macro ‘NUM_ELEMENTS’
+ #define NUM_WORK_GROUPS  NUM_ELEMENTS/LOCAL_SIZE
+                          ^
+first.cpp:226:20: note: in expansion of macro ‘NUM_WORK_GROUPS’
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+                    ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:226:45: note: in expansion of macro ‘NUM_ELEMENTS’
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+                                             ^
+      16 number of megabites	 512 Local Size_SIZE_threads_per_size 	     32768 num work groups 	    20.704 GigaMultsPerSecond
+first.cpp: In function ‘int main(int, char**)’:
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:81:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hA = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:82:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hB = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:83:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hC = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:87:22: note: in expansion of macro ‘NUM_ELEMENTS’
+  for( int i = 0; i < NUM_ELEMENTS; i++ )
+                      ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:92:20: note: in expansion of macro ‘NUM_ELEMENTS’
+  size_t dataSize = NUM_ELEMENTS * sizeof(float);
+                    ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:190:31: note: in expansion of macro ‘NUM_ELEMENTS’
+  size_t globalWorkSize[3] = { NUM_ELEMENTS, 1, 1 };
+                               ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:213:22: note: in expansion of macro ‘NUM_ELEMENTS’
+  for( int i = 0; i < NUM_ELEMENTS; i++ )
+                      ^
+first.cpp:226:6: error: expected primary-expression before ‘,’ token
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+      ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:34:26: note: in expansion of macro ‘NUM_ELEMENTS’
+ #define NUM_WORK_GROUPS  NUM_ELEMENTS/LOCAL_SIZE
+                          ^
+first.cpp:226:20: note: in expansion of macro ‘NUM_WORK_GROUPS’
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+                    ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:226:45: note: in expansion of macro ‘NUM_ELEMENTS’
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+                                             ^
+      16 number of megabites	 512 Local Size_SIZE_threads_per_size 	     32768 num work groups 	    19.814 GigaMultsPerSecond
+first.cpp: In function ‘int main(int, char**)’:
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:81:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hA = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:82:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hB = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:83:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hC = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:87:22: note: in expansion of macro ‘NUM_ELEMENTS’
+  for( int i = 0; i < NUM_ELEMENTS; i++ )
+                      ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:92:20: note: in expansion of macro ‘NUM_ELEMENTS’
+  size_t dataSize = NUM_ELEMENTS * sizeof(float);
+                    ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:190:31: note: in expansion of macro ‘NUM_ELEMENTS’
+  size_t globalWorkSize[3] = { NUM_ELEMENTS, 1, 1 };
+                               ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:213:22: note: in expansion of macro ‘NUM_ELEMENTS’
+  for( int i = 0; i < NUM_ELEMENTS; i++ )
+                      ^
+first.cpp:226:6: error: expected primary-expression before ‘,’ token
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+      ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:34:26: note: in expansion of macro ‘NUM_ELEMENTS’
+ #define NUM_WORK_GROUPS  NUM_ELEMENTS/LOCAL_SIZE
+                          ^
+first.cpp:226:20: note: in expansion of macro ‘NUM_WORK_GROUPS’
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+                    ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:226:45: note: in expansion of macro ‘NUM_ELEMENTS’
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+                                             ^
+      16 number of megabites	 512 Local Size_SIZE_threads_per_size 	     32768 num work groups 	    21.905 GigaMultsPerSecond
+first.cpp: In function ‘int main(int, char**)’:
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:81:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hA = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:82:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hB = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:83:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hC = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:87:22: note: in expansion of macro ‘NUM_ELEMENTS’
+  for( int i = 0; i < NUM_ELEMENTS; i++ )
+                      ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:92:20: note: in expansion of macro ‘NUM_ELEMENTS’
+  size_t dataSize = NUM_ELEMENTS * sizeof(float);
+                    ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:190:31: note: in expansion of macro ‘NUM_ELEMENTS’
+  size_t globalWorkSize[3] = { NUM_ELEMENTS, 1, 1 };
+                               ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:213:22: note: in expansion of macro ‘NUM_ELEMENTS’
+  for( int i = 0; i < NUM_ELEMENTS; i++ )
+                      ^
+first.cpp:226:6: error: expected primary-expression before ‘,’ token
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+      ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:34:26: note: in expansion of macro ‘NUM_ELEMENTS’
+ #define NUM_WORK_GROUPS  NUM_ELEMENTS/LOCAL_SIZE
+                          ^
+first.cpp:226:20: note: in expansion of macro ‘NUM_WORK_GROUPS’
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+                    ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:226:45: note: in expansion of macro ‘NUM_ELEMENTS’
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+                                             ^
+      16 number of megabites	 512 Local Size_SIZE_threads_per_size 	     32768 num work groups 	    21.200 GigaMultsPerSecond
+first.cpp: In function ‘int main(int, char**)’:
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:81:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hA = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:82:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hB = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:83:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hC = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:87:22: note: in expansion of macro ‘NUM_ELEMENTS’
+  for( int i = 0; i < NUM_ELEMENTS; i++ )
+                      ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:92:20: note: in expansion of macro ‘NUM_ELEMENTS’
+  size_t dataSize = NUM_ELEMENTS * sizeof(float);
+                    ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:190:31: note: in expansion of macro ‘NUM_ELEMENTS’
+  size_t globalWorkSize[3] = { NUM_ELEMENTS, 1, 1 };
+                               ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:213:22: note: in expansion of macro ‘NUM_ELEMENTS’
+  for( int i = 0; i < NUM_ELEMENTS; i++ )
+                      ^
+first.cpp:226:6: error: expected primary-expression before ‘,’ token
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+      ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:34:26: note: in expansion of macro ‘NUM_ELEMENTS’
+ #define NUM_WORK_GROUPS  NUM_ELEMENTS/LOCAL_SIZE
+                          ^
+first.cpp:226:20: note: in expansion of macro ‘NUM_WORK_GROUPS’
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+                    ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:226:45: note: in expansion of macro ‘NUM_ELEMENTS’
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+                                             ^
+      16 number of megabites	 512 Local Size_SIZE_threads_per_size 	     32768 num work groups 	    23.307 GigaMultsPerSecond
+first.cpp: In function ‘int main(int, char**)’:
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:81:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hA = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:82:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hB = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:83:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hC = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:87:22: note: in expansion of macro ‘NUM_ELEMENTS’
+  for( int i = 0; i < NUM_ELEMENTS; i++ )
+                      ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:92:20: note: in expansion of macro ‘NUM_ELEMENTS’
+  size_t dataSize = NUM_ELEMENTS * sizeof(float);
+                    ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:190:31: note: in expansion of macro ‘NUM_ELEMENTS’
+  size_t globalWorkSize[3] = { NUM_ELEMENTS, 1, 1 };
+                               ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:213:22: note: in expansion of macro ‘NUM_ELEMENTS’
+  for( int i = 0; i < NUM_ELEMENTS; i++ )
+                      ^
+first.cpp:226:6: error: expected primary-expression before ‘,’ token
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+      ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:34:26: note: in expansion of macro ‘NUM_ELEMENTS’
+ #define NUM_WORK_GROUPS  NUM_ELEMENTS/LOCAL_SIZE
+                          ^
+first.cpp:226:20: note: in expansion of macro ‘NUM_WORK_GROUPS’
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+                    ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:226:45: note: in expansion of macro ‘NUM_ELEMENTS’
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+                                             ^
+      16 number of megabites	 512 Local Size_SIZE_threads_per_size 	     32768 num work groups 	    24.127 GigaMultsPerSecond
+first.cpp: In function ‘int main(int, char**)’:
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:81:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hA = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:82:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hB = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:83:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hC = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:87:22: note: in expansion of macro ‘NUM_ELEMENTS’
+  for( int i = 0; i < NUM_ELEMENTS; i++ )
+                      ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:92:20: note: in expansion of macro ‘NUM_ELEMENTS’
+  size_t dataSize = NUM_ELEMENTS * sizeof(float);
+                    ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:190:31: note: in expansion of macro ‘NUM_ELEMENTS’
+  size_t globalWorkSize[3] = { NUM_ELEMENTS, 1, 1 };
+                               ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:213:22: note: in expansion of macro ‘NUM_ELEMENTS’
+  for( int i = 0; i < NUM_ELEMENTS; i++ )
+                      ^
+first.cpp:226:6: error: expected primary-expression before ‘,’ token
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+      ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:34:26: note: in expansion of macro ‘NUM_ELEMENTS’
+ #define NUM_WORK_GROUPS  NUM_ELEMENTS/LOCAL_SIZE
+                          ^
+first.cpp:226:20: note: in expansion of macro ‘NUM_WORK_GROUPS’
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+                    ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:226:45: note: in expansion of macro ‘NUM_ELEMENTS’
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+                                             ^
+      16 number of megabites	 512 Local Size_SIZE_threads_per_size 	     32768 num work groups 	    21.941 GigaMultsPerSecond
+first.cpp: In function ‘int main(int, char**)’:
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:81:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hA = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:82:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hB = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:83:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hC = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:87:22: note: in expansion of macro ‘NUM_ELEMENTS’
+  for( int i = 0; i < NUM_ELEMENTS; i++ )
+                      ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:92:20: note: in expansion of macro ‘NUM_ELEMENTS’
+  size_t dataSize = NUM_ELEMENTS * sizeof(float);
+                    ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:190:31: note: in expansion of macro ‘NUM_ELEMENTS’
+  size_t globalWorkSize[3] = { NUM_ELEMENTS, 1, 1 };
+                               ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:213:22: note: in expansion of macro ‘NUM_ELEMENTS’
+  for( int i = 0; i < NUM_ELEMENTS; i++ )
+                      ^
+first.cpp:226:6: error: expected primary-expression before ‘,’ token
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+      ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:34:26: note: in expansion of macro ‘NUM_ELEMENTS’
+ #define NUM_WORK_GROUPS  NUM_ELEMENTS/LOCAL_SIZE
+                          ^
+first.cpp:226:20: note: in expansion of macro ‘NUM_WORK_GROUPS’
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+                    ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:226:45: note: in expansion of macro ‘NUM_ELEMENTS’
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+                                             ^
+      16 number of megabites	 512 Local Size_SIZE_threads_per_size 	     32768 num work groups 	    19.618 GigaMultsPerSecond
+first.cpp: In function ‘int main(int, char**)’:
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:81:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hA = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:82:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hB = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:83:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hC = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:87:22: note: in expansion of macro ‘NUM_ELEMENTS’
+  for( int i = 0; i < NUM_ELEMENTS; i++ )
+                      ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:92:20: note: in expansion of macro ‘NUM_ELEMENTS’
+  size_t dataSize = NUM_ELEMENTS * sizeof(float);
+                    ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:190:31: note: in expansion of macro ‘NUM_ELEMENTS’
+  size_t globalWorkSize[3] = { NUM_ELEMENTS, 1, 1 };
+                               ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:213:22: note: in expansion of macro ‘NUM_ELEMENTS’
+  for( int i = 0; i < NUM_ELEMENTS; i++ )
+                      ^
+first.cpp:226:6: error: expected primary-expression before ‘,’ token
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+      ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:34:26: note: in expansion of macro ‘NUM_ELEMENTS’
+ #define NUM_WORK_GROUPS  NUM_ELEMENTS/LOCAL_SIZE
+                          ^
+first.cpp:226:20: note: in expansion of macro ‘NUM_WORK_GROUPS’
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+                    ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:226:45: note: in expansion of macro ‘NUM_ELEMENTS’
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+                                             ^
+      16 number of megabites	 512 Local Size_SIZE_threads_per_size 	     32768 num work groups 	    21.200 GigaMultsPerSecond
+first.cpp: In function ‘int main(int, char**)’:
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:81:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hA = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:82:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hB = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:83:25: note: in expansion of macro ‘NUM_ELEMENTS’
+  float *hC = new float[ NUM_ELEMENTS ];
+                         ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:87:22: note: in expansion of macro ‘NUM_ELEMENTS’
+  for( int i = 0; i < NUM_ELEMENTS; i++ )
+                      ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:92:20: note: in expansion of macro ‘NUM_ELEMENTS’
+  size_t dataSize = NUM_ELEMENTS * sizeof(float);
+                    ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:190:31: note: in expansion of macro ‘NUM_ELEMENTS’
+  size_t globalWorkSize[3] = { NUM_ELEMENTS, 1, 1 };
+                               ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:213:22: note: in expansion of macro ‘NUM_ELEMENTS’
+  for( int i = 0; i < NUM_ELEMENTS; i++ )
+                      ^
+first.cpp:226:6: error: expected primary-expression before ‘,’ token
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+      ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:34:26: note: in expansion of macro ‘NUM_ELEMENTS’
+ #define NUM_WORK_GROUPS  NUM_ELEMENTS/LOCAL_SIZE
+                          ^
+first.cpp:226:20: note: in expansion of macro ‘NUM_WORK_GROUPS’
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+                    ^
+first.cpp:28:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+ #define NUM_ELEMENTS  NMB*1024*1024
+                           ^
+first.cpp:226:45: note: in expansion of macro ‘NUM_ELEMENTS’
+   NMB, LOCAL_SIZE, NUM_WORK_GROUPS, (double)NUM_ELEMENTS/(time1-time0)/1000000000. );
+                                             ^
+      16 number of megabites	 512 Local Size_SIZE_threads_per_size 	     32768 num work groups 	    25.492 GigaMultsPerSecond
